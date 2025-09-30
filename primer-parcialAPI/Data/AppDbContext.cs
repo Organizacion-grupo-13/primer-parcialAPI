@@ -7,6 +7,7 @@ namespace primer_parcialAPI.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
 
+        public DbSet<Event> Events { get; set; }  // ← José
         public DbSet<SupportTicket> SupportTickets { get; set; }  // ← Javier
     }
-}
+}//
