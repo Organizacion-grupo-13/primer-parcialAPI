@@ -9,4 +9,4 @@ namespace primer_parcialAPI.Data
 
         public DbSet<Event> Events { get; set; }  // ← José
     }
-}
+}//
