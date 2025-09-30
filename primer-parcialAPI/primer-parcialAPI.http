@@ -1,0 +1,6 @@
+@primer_parcialAPI_HostAddress = http://localhost:5210
+
+GET {{primer_parcialAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
