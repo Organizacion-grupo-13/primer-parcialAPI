@@ -27,4 +27,4 @@ namespace primer_parcialAPI.Models
         // nullable según el enunciado
         public DateTime? UpdatedAt { get; set; }
     }
-} ////
+} //////
